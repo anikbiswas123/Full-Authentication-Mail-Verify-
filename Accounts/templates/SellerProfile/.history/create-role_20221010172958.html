@@ -1,0 +1,1040 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+    <!-- meta data -->
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Fastkart admin is super flexible, powerful, clean &amp; modern responsive bootstrap 5 admin template with unlimited possibilities.">
+    <meta name="keywords"
+        content="admin template, Fastkart admin template, dashboard template, flat admin template, responsive admin template, web app">
+    <meta name="author" content="pixelstrap">
+    <link rel="icon" href="assets/images/favicon.png" type="image/x-icon">
+    <link rel="shortcut icon" href="assets/images/favicon.png" type="image/x-icon">
+    <title>Fastkart - Add New Product</title>
+
+    <!-- Google font -->
+    <link
+        href="https://fonts.googleapis.com/css2?family=Public+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+
+    <!-- Linear Icon css -->
+    <link rel="stylesheet" href="assets/css/linearicon.css">
+
+    <!-- Fontawesome css -->
+    <link rel="stylesheet" type="text/css" href="assets/css/vendors/font-awesome.css">
+
+    <!-- Themify icon css -->
+    <link rel="stylesheet" type="text/css" href="assets/css/vendors/themify.css">
+
+    <!--Dropzon css -->
+    <link rel="stylesheet" type="text/css" href="assets/css/vendors/dropzone.css">
+
+    <!-- Feather icon css-->
+    <link rel="stylesheet" type="text/css" href="assets/css/vendors/feather-icon.css">
+
+    <!-- remixicon css -->
+    <link rel="stylesheet" type="text/css" href="assets/css/remixicon.css">
+
+    <!-- Select2 css -->
+    <link rel="stylesheet" type="text/css" href="assets/css/select2.min.css">
+
+    <!-- Plugins css -->
+    <link rel="stylesheet" type="text/css" href="assets/css/vendors/scrollbar.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/vendors/animate.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/vendors/chartist.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/vendors/date-picker.css">
+
+    <!-- Bootstrap css -->
+    <link rel="stylesheet" type="text/css" href="assets/css/vendors/bootstrap.css">
+
+    <!-- Bootstrap-tag input css -->
+    <link rel="stylesheet" type="text/css" href="assets/css/vendors/bootstrap-tagsinput.css">
+
+    <!-- App css -->
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+
+    <!-- Responsive css -->
+    <!-- <link rel="stylesheet" type="text/css" href="assets/css/responsive.css"> -->
+
+</head>
+
+<body>
+    <!-- tap on top start -->
+    <div class="tap-top">
+        <span class="lnr lnr-chevron-up"></span>
+    </div>
+    <!-- tap on tap end -->
+
+    <!-- page-wrapper start -->
+    <div class="page-wrapper compact-wrapper" id="pageWrapper">
+        <!-- Page Header Start-->
+        <div class="page-header">
+            <div class="header-wrapper m-0">
+                <div class="header-logo-wrapper p-0">
+                    <div class="logo-wrapper">
+                        <a href="index.html">
+                            <img class="img-fluid main-logo" src="assets/images/logo/1.png" alt="logo">
+                            <img class="img-fluid white-logo" src="assets/images/logo/1-white.png" alt="logo">
+                        </a>
+                    </div>
+                    <div class="toggle-sidebar">
+                        <i class="status_toggle middle sidebar-toggle" data-feather="align-center"></i>
+                    </div>
+                </div>
+
+                <form class="form-inline search-full" action="javascript:void(0)" method="get">
+                    <div class="form-group w-100">
+                        <div class="Typeahead Typeahead--twitterUsers">
+                            <div class="u-posRelative">
+                                <input class="demo-input Typeahead-input form-control-plaintext w-100" type="text"
+                                    placeholder="Search Fastkart .." name="q" title="" autofocus>
+                                <i class="close-search" data-feather="x"></i>
+                                <div class="spinner-border Typeahead-spinner" role="status">
+                                    <span class="sr-only">Loading...</span>
+                                </div>
+                            </div>
+                            <div class="Typeahead-menu"></div>
+                        </div>
+                    </div>
+                </form>
+                <!-- <a class="btn btn-animation product-button ms-md-3" href="javascript:void(0)">Add New product</a> -->
+                <div class="nav-right col-6 pull-right right-header p-0">
+                    <ul class="nav-menus">
+                        <li>
+                            <span class="header-search">
+                                <i class="ri-search-line"></i>
+                            </span>
+                        </li>
+                        <li class="onhover-dropdown">
+                            <div class="notification-box">
+                                <i class="ri-notification-line"></i>
+                                <span class="badge rounded-pill badge-theme">4</span>
+                            </div>
+                            <ul class="notification-dropdown onhover-show-div">
+                                <li>
+                                    <i class="ri-notification-line"></i>
+                                    <h6 class="f-18 mb-0">Notitications</h6>
+                                </li>
+                                <li>
+                                    <p>
+                                        <i class="fa fa-circle me-2 font-primary"></i>Delivery processing <span
+                                            class="pull-right">10 min.</span>
+                                    </p>
+                                </li>
+                                <li>
+                                    <p>
+                                        <i class="fa fa-circle me-2 font-success"></i>Order Complete<span
+                                            class="pull-right">1 hr</span>
+                                    </p>
+                                </li>
+                                <li>
+                                    <p>
+                                        <i class="fa fa-circle me-2 font-info"></i>Tickets Generated<span
+                                            class="pull-right">3 hr</span>
+                                    </p>
+                                </li>
+                                <li>
+                                    <p>
+                                        <i class="fa fa-circle me-2 font-danger"></i>Delivery Complete<span
+                                            class="pull-right">6 hr</span>
+                                    </p>
+                                </li>
+                                <li>
+                                    <a class="btn btn-primary" href="javascript:void(0)">Check all notification</a>
+                                </li>
+                            </ul>
+                        </li>
+
+                        <li>
+                            <div class="mode">
+                                <i class="ri-moon-line"></i>
+                            </div>
+                        </li>
+                        <li class="profile-nav onhover-dropdown pe-0 me-0">
+                            <div class="media profile-media">
+                                <div class="user-name-hide media-body">
+                                    <p class="mb-0 font-roboto"><i class="ri-settings-2-line"></i></p>
+                                </div>
+                            </div>
+                            <ul class="profile-dropdown onhover-show-div">
+                                <li>
+                                    <a href="all-users.html">
+                                        <i class="ri-account-box-line"></i>
+                                        <span>Users</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="order-list.html">
+                                        <i class="ri-archive-line"></i>
+                                        <span>Orders</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="support-ticket.html">
+                                        <i class="ri-phone-line"></i>
+                                        <span>Spports Tickets</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="profile-setting.html">
+                                        <i class="ri-settings-line"></i>
+                                        <span>Settings</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a data-bs-toggle="modal" data-bs-target="#staticBackdrop"
+                                        href="javascript:void(0)">
+                                        <i class="ri-logout-circle-r-line"></i>
+                                        <span>Log out</span>
+                                    </a>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <!-- Page Header Ends-->
+
+        <!-- Page Body start -->
+        <div class="page-body-wrapper">
+            <!-- Page Sidebar Start-->
+            <div class="sidebar-wrapper">
+                <div id="sidebarEffect"></div>
+                <div>
+                    <div class="logo-wrapper logo-wrapper-center">
+                        <a href="index.html" data-bs-original-title="" title="">
+                            <img class="img-fluid for-white" src="assets/images/logo/full-white.png" alt="logo">
+                            <img class="img-fluid for-dark" src="assets/images/logo/1-white.png" alt="">
+                        </a>
+                        <div class="back-btn">
+                            <i class="fa fa-angle-left"></i>
+                        </div>
+                        <div class="toggle-sidebar">
+                            <i class="ri-apps-line status_toggle middle sidebar-toggle"></i>
+                        </div>
+                    </div>
+                    <div class="logo-icon-wrapper">
+                        <a href="index.html">
+                            <img class="img-fluid main-logo main-white" src="assets/images/logo/1-white.png" alt="logo">
+                            <img class="img-fluid main-logo main-dark" src="assets/images/logo/logo-white.png"
+                                alt="logo">
+                        </a>
+                    </div>
+                    <nav class="sidebar-main">
+                        <div class="left-arrow" id="left-arrow">
+                            <i data-feather="arrow-left"></i>
+                        </div>
+
+                        <div id="sidebar-menu">
+                            <ul class="sidebar-links" id="simple-bar">
+                                <li class="back-btn"></li>
+
+                                <li class="sidebar-list">
+                                    <a class="sidebar-link sidebar-title link-nav" href="index.html">
+                                        <i class="ri-home-line"></i>
+                                        <span>Dashboard</span>
+                                    </a>
+                                </li>
+
+                                <li class="sidebar-list">
+                                    <a class="linear-icon-link sidebar-link sidebar-title" href="javascript:void(0)">
+                                        <i class="ri-store-3-line"></i>
+                                        <span>Product</span>
+                                    </a>
+                                    <ul class="sidebar-submenu">
+                                        <li>
+                                            <a href="products.html">Prodcts</a>
+                                        </li>
+
+                                        <li>
+                                            <a href="add-new-product.html">Add New Products</a>
+                                        </li>
+                                    </ul>
+                                </li>
+
+                                <li class="sidebar-list">
+                                    <a class="linear-icon-link sidebar-link sidebar-title" href="javascript:void(0)">
+                                        <i class="ri-list-check-2"></i>
+                                        <span>Category</span>
+                                    </a>
+                                    <ul class="sidebar-submenu">
+                                        <li>
+                                            <a href="category.html">Category List</a>
+                                        </li>
+
+                                        <li>
+                                            <a href="add-new-category.html">Add New Category</a>
+                                        </li>
+                                    </ul>
+                                </li>
+
+                                <li class="sidebar-list">
+                                    <a class="linear-icon-link sidebar-link sidebar-title" href="javascript:void(0)">
+                                        <i class="ri-list-settings-line"></i>
+                                        <span>Attributes</span>
+                                    </a>
+                                    <ul class="sidebar-submenu">
+                                        <li>
+                                            <a href="attributes.html">Attributes</a>
+                                        </li>
+
+                                        <li>
+                                            <a href="add-new-attributes.html">Add Attributes</a>
+                                        </li>
+                                    </ul>
+                                </li>
+
+                                <li class="sidebar-list">
+                                    <a class="sidebar-link sidebar-title" href="javascript:void(0)">
+                                        <i class="ri-user-3-line"></i>
+                                        <span>Users</span>
+                                    </a>
+                                    <ul class="sidebar-submenu">
+                                        <li>
+                                            <a href="all-users.html">All users</a>
+                                        </li>
+                                        <li>
+                                            <a href="add-new-user.html">Add new user</a>
+                                        </li>
+                                    </ul>
+                                </li>
+
+                                <li class="sidebar-list">
+                                    <a class="sidebar-link sidebar-title" href="javascript:void(0)">
+                                        <i class="ri-user-3-line"></i>
+                                        <span>Roles</span>
+                                    </a>
+                                    <ul class="sidebar-submenu">
+                                        <li>
+                                            <a href="role.html">All roles</a>
+                                        </li>
+                                        <li>
+                                            <a href="create-role.html">Create Roles</a>
+                                        </li>
+                                    </ul>
+                                </li>
+
+                                <li class="sidebar-list">
+                                    <a class="sidebar-link sidebar-title" href="javascript:void(0)">
+                                        <i class="ri-archive-line"></i>
+                                        <span>Orders</span>
+                                    </a>
+                                    <ul class="sidebar-submenu">
+                                        <li>
+                                            <a href="order-list.html">Order List</a>
+                                        </li>
+                                        <li>
+                                            <a href="order-detail.html">Order Detail</a>
+                                        </li>
+                                        <li>
+                                            <a href="order-tracking.html">Order Tracking</a>
+                                        </li>
+                                    </ul>
+                                </li>
+
+                                <li class="sidebar-list">
+                                    <a class="linear-icon-link sidebar-link sidebar-title" href="javascript:void(0)">
+                                        <i class="ri-focus-3-line"></i>
+                                        <span>Localization</span>
+                                    </a>
+                                    <ul class="sidebar-submenu">
+                                        <li>
+                                            <a href="translation.html">Translation</a>
+                                        </li>
+
+                                        <li>
+                                            <a href="currency-rates.html">Currency Rates</a>
+                                        </li>
+                                    </ul>
+                                </li>
+
+                                <li class="sidebar-list">
+                                    <a class="linear-icon-link sidebar-link sidebar-title" href="javascript:void(0)">
+                                        <i class="ri-price-tag-3-line"></i>
+                                        <span>Coupons</span>
+                                    </a>
+                                    <ul class="sidebar-submenu">
+                                        <li>
+                                            <a href="coupon-list.html">Coupon List</a>
+                                        </li>
+
+                                        <li>
+                                            <a href="create-coupon.html">Create Coupon</a>
+                                        </li>
+                                    </ul>
+                                </li>
+
+                                <li class="sidebar-list">
+                                    <a class="sidebar-link sidebar-title link-nav" href="taxes.html">
+                                        <i class="ri-price-tag-3-line"></i>
+                                        <span>Tax</span>
+                                    </a>
+                                </li>
+
+                                <li class="sidebar-list">
+                                    <a class="sidebar-link sidebar-title link-nav" href="product-review.html">
+                                        <i class="ri-star-line"></i>
+                                        <span>Product Review</span>
+                                    </a>
+                                </li>
+
+                                <li class="sidebar-list">
+                                    <a class="sidebar-link sidebar-title link-nav" href="support-ticket.html">
+                                        <i class="ri-phone-line"></i>
+                                        <span>Support Ticket</span>
+                                    </a>
+                                </li>
+
+                                <li class="sidebar-list">
+                                    <a class="linear-icon-link sidebar-link sidebar-title" href="javascript:void(0)">
+                                        <i class="ri-settings-line"></i>
+                                        <span>Settings</span>
+                                    </a>
+                                    <ul class="sidebar-submenu">
+                                        <li>
+                                            <a href="profile-setting.html">Profile Setting</a>
+                                        </li>
+                                    </ul>
+                                </li>
+
+                                <li class="sidebar-list">
+                                    <a class="sidebar-link sidebar-title link-nav" href="reports.html">
+                                        <i class="ri-file-chart-line"></i>
+                                        <span>Reports</span>
+                                    </a>
+                                </li>
+
+                                <li class="sidebar-list">
+                                    <a class="sidebar-link sidebar-title link-nav" href="list-page.html">
+                                        <i class="ri-list-check"></i>
+                                        <span>List Page</span>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+
+                        <div class="right-arrow" id="right-arrow">
+                            <i data-feather="arrow-right"></i>
+                        </div>
+                    </nav>
+                </div>
+            </div>
+            <!-- Page Sidebar Ends-->
+
+            <div class="page-body">
+
+                <!-- New Product Add Start -->
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-12">
+                            <div class="row">
+                                <div class="col-12">
+                                    <div class=" card">
+                                        <div class="card-body">
+                                            <div class="card-header-2">
+                                                <h5>Create Role</h5>
+                                            </div>
+
+                                            <form class="theme-form theme-form-2 mega-form">
+                                                <div class="mb-4 row align-items-center">
+                                                    <label class="form-label-title col-sm-3 mb-0">Name <span
+                                                            class="theme-color">*</span></label>
+                                                    <div class="col-sm-9">
+                                                        <input class="form-control" type="text"
+                                                            placeholder="Author Name">
+                                                    </div>
+                                                </div>
+                                            </form>
+                                        </div>
+                                    </div>
+
+                                    <div class="card">
+                                        <div class="card-body">
+                                            <div class="card-header-2">
+                                                <h5>Permissions</h5>
+                                            </div>
+
+                                            <form class="theme-form theme-form-2 mega-form">
+                                                <div class="row">
+                                                    <div class="col-xl-6">
+                                                        <div class="table-responsive">
+                                                            <table class="table permissions-table">
+                                                                <thead>
+                                                                    <tr>
+                                                                        <th>Roles</th>
+                                                                        <th>Users</th>
+                                                                        <th>Product</th>
+                                                                        <th>Category</th>
+                                                                        <th>Attributes</th>
+                                                                        <th>Order</th>
+                                                                    </tr>
+                                                                </thead>
+                                                                <tbody>
+                                                                    <tr>
+                                                                        <td>
+                                                                            <input class="checkbox_animated checkall"
+                                                                                type="checkbox" value="" id="role1">
+                                                                            <label class="form-check-label m-0"
+                                                                                for="role1">All</label>
+                                                                        </td>
+
+                                                                        <td>
+                                                                            <input class="checkbox_animated checkall1"
+                                                                                type="checkbox" value="" id="users1">
+                                                                            <label class="form-check-label m-0"
+                                                                                for="users1">All</label>
+                                                                        </td>
+
+                                                                        <td>
+                                                                            <input class="checkbox_animated checkall2"
+                                                                                type="checkbox" value="" id="media1">
+                                                                            <label class="form-check-label m-0"
+                                                                                for="media1">All</label>
+                                                                        </td>
+
+                                                                        <td>
+                                                                            <input class="checkbox_animated checkall3"
+                                                                                type="checkbox" value="" id="pages1">
+                                                                            <label class="form-check-label m-0"
+                                                                                for="pages1">All</label>
+                                                                        </td>
+
+                                                                        <td>
+                                                                            <input class="checkbox_animated checkall4"
+                                                                                type="checkbox" value="" id="blog1">
+                                                                            <label class="form-check-label m-0"
+                                                                                for="blog1">All</label>
+                                                                        </td>
+
+                                                                        <td>
+                                                                            <input class="checkbox_animated checkall5"
+                                                                                type="checkbox" value="" id="cate1">
+                                                                            <label class="form-check-label m-0"
+                                                                                for="cate1">All</label>
+                                                                        </td>
+                                                                    </tr>
+
+                                                                    <tr>
+                                                                        <td>
+                                                                            <input class="checkbox_animated check-it"
+                                                                                type="checkbox" id="role2" value="">
+                                                                            <label class="form-check-label m-0"
+                                                                                for="role2">Index</label>
+                                                                        </td>
+
+                                                                        <td>
+                                                                            <input class="checkbox_animated check-it1"
+                                                                                type="checkbox" id="users2" value="">
+                                                                            <label class="form-check-label m-0"
+                                                                                for="users2">Index</label>
+                                                                        </td>
+
+                                                                        <td>
+                                                                            <input class="checkbox_animated check-it2"
+                                                                                type="checkbox" id="media3" value="">
+                                                                            <label class="form-check-label m-0"
+                                                                                for="media3">Index</label>
+                                                                        </td>
+
+                                                                        <td>
+                                                                            <input class="checkbox_animated check-it3"
+                                                                                type="checkbox" id="pages2" value="">
+                                                                            <label class="form-check-label m-0"
+                                                                                for="pages2">Index</label>
+                                                                        </td>
+
+                                                                        <td>
+                                                                            <input class="checkbox_animated check-it4"
+                                                                                type="checkbox" id="blog2" value="">
+                                                                            <label class="form-check-label m-0"
+                                                                                for="blog2">Index</label>
+                                                                        </td>
+
+                                                                        <td>
+                                                                            <input class="checkbox_animated check-it5"
+                                                                                type="checkbox" id="cate2" value="">
+                                                                            <label class="form-check-label m-0"
+                                                                                for="cate2">Index</label>
+                                                                        </td>
+                                                                    </tr>
+
+                                                                    <tr>
+                                                                        <td>
+                                                                            <input class="checkbox_animated check-it"
+                                                                                type="checkbox" id="role3" value="">
+                                                                            <label class="form-check-label m-0"
+                                                                                for="role3">Create</label>
+                                                                        </td>
+
+                                                                        <td>
+                                                                            <input class="checkbox_animated check-it1"
+                                                                                type="checkbox" id="users3" value="">
+                                                                            <label class="form-check-label m-0"
+                                                                                for="users3">Create</label>
+                                                                        </td>
+
+                                                                        <td>
+                                                                            <input class="checkbox_animated check-it2"
+                                                                                type="checkbox" id="media2" value="">
+                                                                            <label class="form-check-label m-0"
+                                                                                for="media2">Create</label>
+                                                                        </td>
+
+                                                                        <td>
+                                                                            <input class="checkbox_animated check-it3"
+                                                                                type="checkbox" id="pages3" value="">
+                                                                            <label class="form-check-label m-0"
+                                                                                for="pages3">Create</label>
+                                                                        </td>
+
+                                                                        <td>
+                                                                            <input class="checkbox_animated check-it4"
+                                                                                type="checkbox" id="blog3" value="">
+                                                                            <label class="form-check-label m-0"
+                                                                                for="blog3">Create</label>
+                                                                        </td>
+
+                                                                        <td>
+                                                                            <input class="checkbox_animated check-it5"
+                                                                                type="checkbox" id="cate3" value="">
+                                                                            <label class="form-check-label m-0"
+                                                                                for="cate3">Create</label>
+                                                                        </td>
+                                                                    </tr>
+
+                                                                    <tr>
+                                                                        <td>
+                                                                            <input class="checkbox_animated check-it"
+                                                                                type="checkbox" id="role4" value="">
+                                                                            <label class="form-check-label m-0"
+                                                                                for="role4">Edit</label>
+                                                                        </td>
+
+                                                                        <td>
+                                                                            <input class="checkbox_animated check-it1"
+                                                                                type="checkbox" id="users4" value="">
+                                                                            <label class="form-check-label m-0"
+                                                                                for="users4">Edit</label>
+                                                                        </td>
+
+                                                                        <td>
+                                                                            <input class="checkbox_animated check-it2"
+                                                                                type="checkbox" id="media4" value="">
+                                                                            <label class="form-check-label m-0"
+                                                                                for="media4">Edit</label>
+                                                                        </td>
+
+                                                                        <td>
+                                                                            <input class="checkbox_animated check-it3"
+                                                                                type="checkbox" id="pages4" value="">
+                                                                            <label class="form-check-label m-0"
+                                                                                for="pages4">Edit</label>
+                                                                        </td>
+
+                                                                        <td>
+                                                                            <input class="checkbox_animated check-it4"
+                                                                                type="checkbox" id="blog4" value="">
+                                                                            <label class="form-check-label m-0"
+                                                                                for="blog4">Edit</label>
+                                                                        </td>
+
+                                                                        <td>
+                                                                            <input class="checkbox_animated check-it5"
+                                                                                type="checkbox" id="cate4" value="">
+                                                                            <label class="form-check-label m-0"
+                                                                                for="cate4">Edit</label>
+                                                                        </td>
+                                                                    </tr>
+
+                                                                    <tr>
+                                                                        <td>
+                                                                            <input class="checkbox_animated check-it"
+                                                                                type="checkbox" id="role5" value="">
+                                                                            <label class="form-check-label m-0"
+                                                                                for="role5">Destroy</label>
+                                                                        </td>
+
+                                                                        <td>
+                                                                            <input class="checkbox_animated check-it1"
+                                                                                type="checkbox" id="users5" value="">
+                                                                            <label class="form-check-label m-0"
+                                                                                for="users5">Destroy</label>
+                                                                        </td>
+
+                                                                        <td>
+                                                                            <input class="checkbox_animated check-it2"
+                                                                                type="checkbox" id="media5" value="">
+                                                                            <label class="form-check-label m-0"
+                                                                                for="media5">Destroy</label>
+                                                                        </td>
+
+                                                                        <td>
+                                                                            <input class="checkbox_animated check-it3"
+                                                                                type="checkbox" id="pages5" value="">
+                                                                            <label class="form-check-label m-0"
+                                                                                for="pages5">Destroy</label>
+                                                                        </td>
+
+                                                                        <td>
+                                                                            <input class="checkbox_animated check-it4"
+                                                                                type="checkbox" id="blog5" value="">
+                                                                            <label class="form-check-label m-0"
+                                                                                for="blog5">Destroy</label>
+                                                                        </td>
+
+                                                                        <td>
+                                                                            <input class="checkbox_animated check-it5"
+                                                                                type="checkbox" id="cate5" value="">
+                                                                            <label class="form-check-label m-0"
+                                                                                for="cate5">Destroy</label>
+                                                                        </td>
+                                                                    </tr>
+                                                                </tbody>
+                                                            </table>
+                                                        </div>
+                                                    </div>
+
+                                                    <div class="col-xl-6">
+                                                        <div class="table-responsive">
+                                                            <table class="table permissions-table">
+                                                                <thead>
+                                                                    <tr>
+                                                                        <th>Localization</th>
+                                                                        <th>Coupons</th>
+                                                                        <th>Tax</th>
+                                                                        <th>Product Review</th>
+                                                                        <th>Support Ticket</th>
+                                                                        <th>Reports</th>
+                                                                    </tr>
+                                                                </thead>
+                                                                <tbody>
+                                                                    <tr>
+                                                                        <td>
+                                                                            <input class="checkbox_animated checkall7"
+                                                                                type="checkbox" value="" id="loca">
+                                                                            <label class="form-check-label m-0"
+                                                                                for="loca">All</label>
+                                                                        </td>
+
+                                                                        <td>
+                                                                            <input class="checkbox_animated checkall8"
+                                                                                type="checkbox" value="" id="coup">
+                                                                            <label class="form-check-label m-0"
+                                                                                for="coup">All</label>
+                                                                        </td>
+
+                                                                        <td>
+                                                                            <input class="checkbox_animated checkall9"
+                                                                                type="checkbox" value="" id="tax">
+                                                                            <label class="form-check-label m-0"
+                                                                                for="tax">All</label>
+                                                                        </td>
+
+                                                                        <td>
+                                                                            <input class="checkbox_animated checkall10"
+                                                                                type="checkbox" value="" id="review">
+                                                                            <label class="form-check-label m-0"
+                                                                                for="review">All</label>
+                                                                        </td>
+
+                                                                        <td>
+                                                                            <input class="checkbox_animated checkall11"
+                                                                                type="checkbox" value="" id="ticket">
+                                                                            <label class="form-check-label m-0"
+                                                                                for="ticket">All</label>
+                                                                        </td>
+
+                                                                        <td>
+                                                                            <input class="checkbox_animated checkall12"
+                                                                                type="checkbox" value="" id="report">
+                                                                            <label class="form-check-label m-0"
+                                                                                for="report">All</label>
+                                                                        </td>
+                                                                    </tr>
+
+                                                                    <tr>
+                                                                        <td>
+                                                                            <input class="checkbox_animated check-it7"
+                                                                                type="checkbox" id="loca1" value="">
+                                                                            <label class="form-check-label m-0"
+                                                                                for="loca1">Index</label>
+                                                                        </td>
+
+                                                                        <td>
+                                                                            <input class="checkbox_animated check-it8"
+                                                                                type="checkbox" id="coup1" value="">
+                                                                            <label class="form-check-label m-0"
+                                                                                for="coup1">Index</label>
+                                                                        </td>
+
+                                                                        <td>
+                                                                            <input class="checkbox_animated check-it9"
+                                                                                type="checkbox" id="tax1" value="">
+                                                                            <label class="form-check-label m-0"
+                                                                                for="tax1">Index</label>
+                                                                        </td>
+
+                                                                        <td>
+                                                                            <input class="checkbox_animated check-it10"
+                                                                                type="checkbox" id="review1" value="">
+                                                                            <label class="form-check-label m-0"
+                                                                                for="review1">Index</label>
+                                                                        </td>
+
+                                                                        <td>
+                                                                            <input class="checkbox_animated check-it11"
+                                                                                type="checkbox" id="ticket1" value="">
+                                                                            <label class="form-check-label m-0"
+                                                                                for="ticket1">Index</label>
+                                                                        </td>
+
+                                                                        <td>
+                                                                            <input class="checkbox_animated check-it12"
+                                                                                type="checkbox" id="report1" value="">
+                                                                            <label class="form-check-label m-0"
+                                                                                for="report1">Index</label>
+                                                                        </td>
+                                                                    </tr>
+
+                                                                    <tr>
+                                                                        <td>
+                                                                            <input class="checkbox_animated check-it7"
+                                                                                type="checkbox" id="loca2" value="">
+                                                                            <label class="form-check-label m-0"
+                                                                                for="loca2">Create</label>
+                                                                        </td>
+
+                                                                        <td>
+                                                                            <input class="checkbox_animated check-it8"
+                                                                                type="checkbox" id="coup2" value="">
+                                                                            <label class="form-check-label m-0"
+                                                                                for="coup2">Create</label>
+                                                                        </td>
+
+                                                                        <td>
+                                                                            <input class="checkbox_animated check-it9"
+                                                                                type="checkbox" id="tax2" value="">
+                                                                            <label class="form-check-label m-0"
+                                                                                for="tax2">Create</label>
+                                                                        </td>
+
+                                                                        <td>
+                                                                            <input class="checkbox_animated check-it10"
+                                                                                type="checkbox" id="review2" value="">
+                                                                            <label class="form-check-label m-0"
+                                                                                for="review2">Create</label>
+                                                                        </td>
+
+                                                                        <td>
+                                                                            <input class="checkbox_animated check-it11"
+                                                                                type="checkbox" id="ticket2" value="">
+                                                                            <label class="form-check-label m-0"
+                                                                                for="ticket2">Create</label>
+                                                                        </td>
+
+                                                                        <td>
+                                                                            <input class="checkbox_animated check-it12"
+                                                                                type="checkbox" id="report2" value="">
+                                                                            <label class="form-check-label m-0"
+                                                                                for="report2">Create</label>
+                                                                        </td>
+                                                                    </tr>
+
+                                                                    <tr>
+                                                                        <td>
+                                                                            <input class="checkbox_animated check-it7"
+                                                                                type="checkbox" id="loca3" value="">
+                                                                            <label class="form-check-label m-0"
+                                                                                for="loca3">Edit</label>
+                                                                        </td>
+
+                                                                        <td>
+                                                                            <input class="checkbox_animated check-it8"
+                                                                                type="checkbox" id="coup3" value="">
+                                                                            <label class="form-check-label m-0"
+                                                                                for="coup3">Edit</label>
+                                                                        </td>
+
+                                                                        <td>
+                                                                            <input class="checkbox_animated check-it9"
+                                                                                type="checkbox" id="tax3" value="">
+                                                                            <label class="form-check-label m-0"
+                                                                                for="tax3">Edit</label>
+                                                                        </td>
+
+                                                                        <td>
+                                                                            <input class="checkbox_animated check-it10"
+                                                                                type="checkbox" id="review3" value="">
+                                                                            <label class="form-check-label m-0"
+                                                                                for="review3">Edit</label>
+                                                                        </td>
+
+                                                                        <td>
+                                                                            <input class="checkbox_animated check-it11"
+                                                                                type="checkbox" id="ticket3" value="">
+                                                                            <label class="form-check-label m-0"
+                                                                                for="ticket3">Edit</label>
+                                                                        </td>
+
+                                                                        <td>
+                                                                            <input class="checkbox_animated check-it12"
+                                                                                type="checkbox" id="report3" value="">
+                                                                            <label class="form-check-label m-0"
+                                                                                for="report3">Edit</label>
+                                                                        </td>
+                                                                    </tr>
+
+                                                                    <tr>
+                                                                        <td>
+                                                                            <input class="checkbox_animated check-it7"
+                                                                                type="checkbox" id="loca4" value="">
+                                                                            <label class="form-check-label m-0"
+                                                                                for="loca4">Destroy</label>
+                                                                        </td>
+
+                                                                        <td>
+                                                                            <input class="checkbox_animated check-it8"
+                                                                                type="checkbox" id="coup4" value="">
+                                                                            <label class="form-check-label m-0"
+                                                                                for="coup4">Destroy</label>
+                                                                        </td>
+
+                                                                        <td>
+                                                                            <input class="checkbox_animated check-it9"
+                                                                                type="checkbox" id="tax4" value="">
+                                                                            <label class="form-check-label m-0"
+                                                                                for="tax4">Destroy</label>
+                                                                        </td>
+
+                                                                        <td>
+                                                                            <input class="checkbox_animated check-it10"
+                                                                                type="checkbox" id="review4" value="">
+                                                                            <label class="form-check-label m-0"
+                                                                                for="review4">Destroy</label>
+                                                                        </td>
+
+                                                                        <td>
+                                                                            <input class="checkbox_animated check-it11"
+                                                                                type="checkbox" id="ticket4" value="">
+                                                                            <label class="form-check-label m-0"
+                                                                                for="ticket4">Destroy</label>
+                                                                        </td>
+
+                                                                        <td>
+                                                                            <input class="checkbox_animated check-it12"
+                                                                                type="checkbox" id="report4" value="">
+                                                                            <label class="form-check-label m-0"
+                                                                                for="report4">Destroy</label>
+                                                                        </td>
+                                                                    </tr>
+                                                                </tbody>
+                                                            </table>
+                                                        </div>
+                                                    </div>
+                                                </div>
+
+                                                <button class="btn btn-primary">Save</button>
+                                            </form>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- New Product Add End -->
+
+                <!-- footer Start -->
+                <div class="container-fluid">
+                    <footer class="footer">
+                        <div class="row">
+                            <div class="col-md-12 footer-copyright text-center">
+                                <p class="mb-0">Copyright 2022 © Fastkart theme by pixelstrap</p>
+                            </div>
+                        </div>
+                    </footer>
+                </div>
+                <!-- footer En -->
+            </div>
+            <!-- Container-fluid End -->
+        </div>
+        <!-- Page Body End -->
+    </div>
+    <!-- page-wrapper End -->
+
+    <!-- Modal Start -->
+    <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+        aria-labelledby="staticBackdropLabel" aria-hidden="true">
+        <div class="modal-dialog  modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-body">
+                    <h5 class="modal-title" id="staticBackdropLabel">Logging Out</h5>
+                    <p>Are you sure you want to log out?</p>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+
+                    <div class="button-box">
+                        <button type="button" class="btn btn--no" data-bs-dismiss="modal">No</button>
+                        <button type="button" class="btn  btn--yes btn-primary">Yes</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Modal End -->
+
+    <!-- latest js -->
+    <script src="assets/js/jquery-3.6.0.min.js"></script>
+
+    <!-- Bootstrap js -->
+    <script src="assets/js/bootstrap/bootstrap.bundle.min.js"></script>
+
+    <!-- feather icon js -->
+    <script src="assets/js/icons/feather-icon/feather.min.js"></script>
+    <script src="assets/js/icons/feather-icon/feather-icon.js"></script>
+
+    <!-- scrollbar simplebar js -->
+    <script src="assets/js/scrollbar/simplebar.js"></script>
+    <script src="assets/js/scrollbar/custom.js"></script>
+
+    <!-- Sidebar js -->
+    <script src="assets/js/config.js"></script>
+
+    <!-- bootstrap tag-input js -->
+    <script src="assets/js/bootstrap-tagsinput.min.js"></script>
+    <script src="assets/js/sidebar-menu.js"></script>
+
+    <!-- customizer js -->
+    <script src="assets/js/customizer.js"></script>
+
+    <!--Dropzon js -->
+    <script src="assets/js/dropzone/dropzone.js"></script>
+    <script src="assets/js/dropzone/dropzone-script.js"></script>
+
+    <!-- Plugins js -->
+    <script src="assets/js/notify/bootstrap-notify.min.js"></script>
+    <script src="assets/js/notify/index.js"></script>
+
+    <!-- ck editor js -->
+    <!-- <script src="assets/js/ckeditor.js"></script>
+    <script src="assets/js/ckeditor-custom.js"></script> -->
+
+    <!-- select2 js -->
+    <script src="assets/js/select2.min.js"></script>
+    <script src="assets/js/select2-custom.js"></script>
+
+    <!-- all checkbox select js -->
+    <script src="assets/js/checkbox-all-check.js"></script>
+
+    <!-- sidebar effect -->
+    <script src="assets/js/sidebareffect.js"></script>
+
+    <!-- Theme js -->
+    <script src="assets/js/script.js"></script>
+
+</body>
+
+</html>
